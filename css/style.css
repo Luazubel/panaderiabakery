@@ -1,17 +1,17 @@
 .bgColor {
-  background-color: pink;
-}
-
-.bgForm {
-    background-color: #ffd8d6;
-    background-image: linear-gradient(19deg, #ffd8d6 0%, #DDD6F3 100%);
-    
-  border-radius: 50px;
+  background-color: rgb(57, 112, 87);
 }
 
 @media all and (max-width: 767px) {
   .banner-responsive {
     height: 250px;
+    object-fit: cover;
+  }
+}
+
+@media all and (min-width: 768px) {
+  .banner-responsive {
+    height: 450px;
     object-fit: cover;
   }
 }
@@ -39,8 +39,8 @@
 .textoCentrado2 {
   color: rgb(225, 227, 227);
   position: absolute;
-  top: 40%;
-  right: 39%;
+  top: 50%;
+  right: 21%;
   text-align: center;
 }
 
